@@ -1,0 +1,30 @@
+# Dependencies
+frontend/node_modules/
+backend/__pycache__/
+backend/*/__pycache__/
+*.pyc
+*.pyo
+
+# Environment & secrets
+backend/.env
+.env
+.env.local
+
+# Vite / React Build output
+frontend/dist/
+frontend/dist-ssr/
+*.local
+
+# IDE / Editor
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS metadata
+Thumbs.db
+[Dd]esktop.ini
+.DS_Store
